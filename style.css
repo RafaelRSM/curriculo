@@ -1,30 +1,57 @@
 body{
     margin: 0;
     font-family: 'Lora', serif;
+    background-color: #0D0D0D;
 }
 header {
-    background-color:#95998A;
-    background-color:;
+    background-color:#F56E00;
+    background-image: url('background-header.jpeg');
+    background-size: 100%;
     padding: 50px;
     text-align: center;
-    color: #FFEC67;
+    color: #ffffff;
+    border-radius: 2%;
 }
 header > img {
     border-radius:50%;
 }
 
+@media screen and (max-width: 480px): {header, .sobre, .linkedin-logo, .whats, .github, .mailto, header > img, section, footer }
+
+.linkedin-logo{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.whats{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.mailto{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.github{
+    max-width: 70px;
+    max-height: 70px;   
+}
+
 section {
-    background-color: #A9B6CC;;
-    color:#FFFFFF;
+    background-color: #04B2D9;;
+    color:#F2F2F2;
     margin: 40px;
+    border-style:groove;
+    border-color: #F56E00;
     padding: 20px;
     border-radius: 15px;
 }
 
 footer {
-    background-color:#95998A;
+    background-color:#F56E00;
     margin: 0;
-    color: #FFEC67;
+    color: #F2F2F2;
     text-align: center;
     padding: 20px;
 }
