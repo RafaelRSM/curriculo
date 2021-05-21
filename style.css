@@ -7,7 +7,6 @@ header {
     background-color:#F56E00;
     background-image: url('background-header.jpeg');
     background-size: 100% 100%;
-    padding: 50px;
     text-align: center;
     color: #ffffff;
     border-radius: 2%;
@@ -22,7 +21,12 @@ header > img {
     height: 200px;
 }
 
-@media screen and (max-width: 480px): {header, .sobre, .linkedin-logo, .whats, .github, .mailto, header > img, section, footer }
+@media only screen and (max-width: 480px) {
+    header {
+      background-image: url('background-header2.jpeg');
+    }
+  }
+
 
 .linkedin-logo{
     max-width: 70px;
@@ -58,7 +62,6 @@ section {
     padding: 20px;
     border-radius: 15px;
     text-shadow: 1px 1px rgb(252, 101, 1);
-    list-style: ;
 }
 
 footer {
