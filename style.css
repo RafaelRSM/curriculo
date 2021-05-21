@@ -11,13 +11,15 @@ header {
     text-align: center;
     color: #ffffff;
     border-radius: 2%;
-    text-shadow: 4px 4px black;
+    text-shadow: 3px 3px black;
 }
 header > img {
     border-radius:50%;
     border-style:groove;
     border-color:#F56E00;
     margin: 10px;
+    width: 200px;
+    height: 200px;
 }
 
 @media screen and (max-width: 480px): {header, .sobre, .linkedin-logo, .whats, .github, .mailto, header > img, section, footer }
@@ -55,8 +57,8 @@ section {
     border-color: #F56E00;
     padding: 20px;
     border-radius: 15px;
-    text-shadow: 1px 1px black;
-    
+    text-shadow: 1px 1px rgb(252, 101, 1);
+    list-style: ;
 }
 
 footer {
