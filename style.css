@@ -42,6 +42,11 @@ header > img {
     max-height: 70px;   
 }
 
+.twitter{
+    max-width: 70px;
+    max-height: 70px;
+}
+
 section {
     background-color: #04B2D9;;
     color:#F2F2F2;
