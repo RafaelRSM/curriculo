@@ -3,6 +3,7 @@ body{
     font-family: 'Lora', serif;
     background-color: #0D0D0D;
 }
+
 header {
     background-color:#F56E00;
     background-image: url('background-header.jpeg');
@@ -12,6 +13,7 @@ header {
     border-radius: 2%;
     text-shadow: 3px 3px black;
 }
+
 header > img {
     border-radius:50%;
     border-style:groove;
@@ -21,40 +23,23 @@ header > img {
     height: 200px;
 }
 
+header > a > img {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: 10px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
 @media only screen and (max-width: 480px) {
     header {
       background-image: url('background-header2.jpeg');
     }
-  }
-
-
-.linkedin-logo{
-    max-width: 70px;
-    max-height: 70px;
-}
-
-.whats{
-    max-width: 70px;
-    max-height: 70px;
-}
-
-.mailto{
-    max-width: 70px;
-    max-height: 70px;
-}
-
-.github{
-    max-width: 70px;
-    max-height: 70px;   
-}
-
-.twitter{
-    max-width: 70px;
-    max-height: 70px;
 }
 
 section {
-    background-color: #04B2D9;;
+    background-color: #04B2D9;
     color:#F2F2F2;
     margin: 40px;
     border-style:groove;
