@@ -4,14 +4,14 @@
     
     <head>
 
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" zoom="100%">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Currículo - Rafael Maria</title>
         <link rel="icon" href="Foto Perfil2.png">
-        <link rel="stylesheet" href="curriculo.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contato.css">
         <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
-        
+
     </head>
     
     <body>
@@ -45,7 +45,7 @@
 
                 <li><a href="index.html">Currículo</a></li>
                 <li><a href="">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="">Contato</a></li>
 
             </ul>
 
@@ -53,37 +53,31 @@
 
         <main>
 
-            <section>
+            <form action="">
 
-                <h2>Resumo</h2>
-                <p>Graduando em engenharia de Software pela Unicesumar. Atua como consultor técnico na Legrand SA. </p>
-    
-            </section>
-                    
-            <section>
-    
-                <h2>Acadêmico</h2>
-                <ul>
-                    <li><b>(2021 - Presente)</b>  Engenharia de Software (Unicesumar)</li>
-                    <li><b>(2010 -2015)</b>  Engenharia Florestal (UFRPE)</li>
-                    <li><b>(2007 -2011)</b>  Bacharelado em História (UFRPE)</li>
-                </ul>
-    
-            </section>
-    
-            <section>
-    
-                <h2>Profissional</h2>
-                <ul>
-                    <li><b>(Maio 2019 - Presente)</b>  Consultor técnico - Legrand SA.</li>
-                    <li><b>(Outubro/2018 - março/2019)</b>  Promotor técnico - NVH </li>
-                    <li><b>(Junho/2017 -Outubro/2018)</b>  Representante comercial - Multilaser Industrial SA.</li>
-                    <li><b>(Janeiro/2017 - Junho/2017)</b>  Representante comercial - Elgin SA.</li>
-                    <li><b>(Novembro/2009 - Janeiro/2010)</b>  Vendedor corporativo - Ligue Telecom.</li>
-                    <li><b>(Maio/2005 - Outubro/2009)</b>  Consultor em telecomunicações- Reduz Consultoria LTDA. </li>
-                </ul>
-    
-            </section>
+                <fieldset>
+                    <label for="input-nome">Nome</label>
+                    <input type="text" id="input-nome" class="input-forms" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="input-email">Email</label>
+                    <input type="email" id="input-email" class="input-forms" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="input-tel">Telefone</label>
+                    <input type="tel" id="input-tel" class="input-forms" placeholder="(xx) x xxxx-xxxx"> 
+                </fieldset>
+                
+                <fieldset>
+                    <label for="input-messege">Mensagem</label>
+                    <textarea id="input-message" cols="30" rows="10" class="input-forms" required></textarea>
+                </fieldset>
+
+                <input type="submit" class="button">
+
+            </form>
 
         </main>
 

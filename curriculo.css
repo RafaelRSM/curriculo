@@ -1,0 +1,18 @@
+main > section {
+    background-color: #0090b1;
+    color:#F2F2F2;
+    margin: 40px;
+    border-style:groove;
+    border-color: #F56E00;
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 1px 1px rgb(252, 101, 1);
+}
+
+main > section > ul > li{
+    font-size: 120%;
+}
+
+main > section > p{
+    font-size: 120%;
+}
