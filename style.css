@@ -33,6 +33,7 @@ header > a > img {
     margin: 10px;
     max-width:70px;
     max-height:70px;
+    box-shadow: 4px 4px 4px black;
 }
 
 nav {

@@ -20,6 +20,7 @@ main > form > fieldset > label {
     display: block;
     color: white;
     margin-bottom: 5px;
+    text-shadow: 1px 1px #F56E00;
 }
 
 main > form > fieldset > input {
