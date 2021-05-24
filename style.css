@@ -22,6 +22,9 @@ header > img {
     height: 200px;
 }
 
+header > a {
+    text-decoration: none;
+}
 header > a > img {
     border-radius: 50%;
     border-style: groove;
