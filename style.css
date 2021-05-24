@@ -86,6 +86,7 @@ nav > ul > li > a {
         margin: 10px;
         max-width:50px;
         max-height:50px;
+        margin: 5px;
     }
 }
 
