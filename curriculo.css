@@ -9,10 +9,17 @@ main > section {
     text-shadow: 1px 1px rgb(252, 101, 1);
 }
 
-main > section > ul > li{
+main > section > ul > li {
     font-size: 120%;
 }
 
-main > section > p{
+main > section > p {
     font-size: 120%;
+}
+
+@media only screen and (max-width: 600px) {
+    main > section {
+        font-size: 80%;
+        margin: 10px;
+    }
 }
