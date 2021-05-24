@@ -31,6 +31,12 @@ main > form > fieldset > input {
 }
 
 @media only screen and (max-width: 480px) {
+    main {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
     main > form {
         background-color: #0090b1;
         width: 80%;
