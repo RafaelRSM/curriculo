@@ -42,7 +42,9 @@ nav {
     text-align: center;
     border-bottom-style: groove;
     border-bottom-color: #006e86;
-    box-shadow: 6px 6px 6px black, inset 5px 5px 5px black; 
+    box-shadow: 
+        6px 6px 6px black, 
+        inset 5px 5px 5px black; 
 }
 
 nav > ul {
@@ -52,7 +54,7 @@ nav > ul {
 
 nav > ul > li {
     display: inline;
-    padding: 10px;
+    padding: 30px;
 }
 
 nav > ul > li > a {
@@ -90,6 +92,12 @@ nav > ul > li > a {
 }
 
 @media only screen and (max-width: 600px) {
+    nav > ul > li {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     nav > ul > li > a {
         text-decoration: none;
         color: #ffffff;
@@ -109,7 +117,9 @@ footer {
     text-shadow: 1px 1px #006e86;
     border-top-style: groove;
     border-top-color:#006e86;
-    box-shadow: 6px 6px 6px black, inset 5px 5px 5px black;
+    box-shadow: 
+        6px 6px 6px black, 
+        inset 5px 5px 5px black;
 }
 
 .button {
@@ -123,5 +133,7 @@ footer {
     color: white;
     text-transform:uppercase;
     text-shadow: 1px 1px #006e86;
-    box-shadow: 4px 4px 3px black, inset 2px 2px 4px black;
+    box-shadow: 
+        4px 4px 3px black, 
+        inset 2px 2px 4px black;
 }
