@@ -42,7 +42,7 @@ nav {
     text-align: center;
     border-bottom-style: groove;
     border-bottom-color: #006e86;
-    box-shadow: 6px 6px 6px black;
+    box-shadow: 6px 6px 6px black, inset 5px 5px 5px black; 
 }
 
 nav > ul {
@@ -109,6 +109,7 @@ footer {
     text-shadow: 1px 1px #006e86;
     border-top-style: groove;
     border-top-color:#006e86;
+    box-shadow: 6px 6px 6px black, inset 5px 5px 5px black;
 }
 
 .button {
@@ -122,5 +123,5 @@ footer {
     color: white;
     text-transform:uppercase;
     text-shadow: 1px 1px #006e86;
-    box-shadow: 4px 4px 3px black;
+    box-shadow: 4px 4px 3px black, inset 2px 2px 4px black;
 }

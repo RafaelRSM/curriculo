@@ -7,7 +7,7 @@ main > section {
     padding: 20px;
     border-radius: 15px;
     text-shadow: 1px 1px rgb(252, 101, 1);
-    box-shadow: 8px 8px 6px black;
+    box-shadow: 8px 8px 6px black, inset 5px 5px 5px black; 
 }
 
 main > section > ul > li {
