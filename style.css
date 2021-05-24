@@ -25,13 +25,14 @@ header > img {
 header > a {
     text-decoration: none;
 }
+
 header > a > img {
     border-radius: 50%;
     border-style: groove;
     border-color: #F56E00;
     margin: 10px;
-    max-width: 70px;
-    max-height: 70px;
+    max-width:70px;
+    max-height:70px;
 }
 
 nav {
@@ -66,6 +67,28 @@ nav > ul > li > a {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header > a > img {
+        border-radius: 50%;
+        border-style: groove;
+        border-color: #F56E00;
+        margin: 10px;
+        max-width:50px;
+        max-height:50px;
+    }
+}
+
 footer {
     background-color:#F56E00;
     margin: 0;
@@ -88,5 +111,4 @@ footer {
     color: white;
     text-transform:uppercase;
     text-shadow: 1px 1px #006e86;
-
 }
