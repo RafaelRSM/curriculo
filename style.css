@@ -37,6 +37,61 @@ header > a > img {
     box-shadow: 4px 4px 3px black;
 }
 
+.linkedin-logo:hover {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: auto;
+    max-width:75px;
+    max-height:75px;
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+}
+
+.whats:hover {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: auto;
+    max-width:75px;
+    max-height:75px;
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+}
+
+.github:hover {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: auto;
+    max-width:75px;
+    max-height:75px;
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+}
+
+.mailto:hover {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: auto;
+    max-width:75px;
+    max-height:75px;
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: auto;
+    max-width:75px;
+    max-height:75px;
+    box-shadow: 4px 4px 3px black;
+    cursor: pointer;
+}
+
 nav {
     background-color: #F56E00;
     text-align: center;
@@ -55,6 +110,14 @@ nav > ul {
 nav > ul > li {
     display: inline;
     padding: 3%;
+    padding-top: 1%;
+}
+
+nav > ul > li:hover {
+    display: inline;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    background-color: #fd8828;
 }
 
 nav > ul > li > a {
@@ -94,6 +157,23 @@ footer {
     box-shadow: 
         4px 4px 3px black, 
         inset 2px 2px 4px black;
+}
+
+.button:hover {
+    border: 0;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100px;
+    background-color: #fd8828;
+    color: white;
+    text-transform:uppercase;
+    text-shadow: 1px 1px #006e86;
+    box-shadow: 
+        4px 4px 3px black, 
+        inset 2px 2px 4px black;
+    cursor: pointer;    
 }
 
 @media only screen and (max-width: 600px) {
