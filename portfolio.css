@@ -1,0 +1,40 @@
+main{
+    padding:5%;
+    text-align: center;
+}
+
+.item-portfolio {
+    display: inline-block;
+    background-color: #006e86;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: 10px;
+    box-shadow: 4px 4px 3px black;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+.item-portfolio:hover {
+    display: inline-block;
+    background-color: #006e86;
+    border-style: groove;
+    border-color: #F56E00;
+    margin: 10px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 3%;
+    box-shadow: 0px 0px 2px 2px #F56E00;
+}
+
+.item-portfolio > img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-color: #F56E00;
+    border-bottom-style: groove;
+}
+
+.item-portfolio > p {
+    padding: 10px;
+}
