@@ -15,16 +15,10 @@ main{
     margin: 3%;
 }
 
-.item-portfolio:hover {
-    display: inline-block;
-    background-color: #006e86;
-    border-style: groove;
-    border-color: #F56E00;
-    margin: 10px;
-    color: #ffffff;
-    border-radius: 15px;
-    margin: 3%;
+.item-portfolio:hover { 
     box-shadow: 0px 0px 2px 2px #F56E00;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .item-portfolio > img {
