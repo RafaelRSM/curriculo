@@ -54,7 +54,7 @@ nav > ul {
 
 nav > ul > li {
     display: inline;
-    padding: 30px;
+    padding: 3%;
 }
 
 nav > ul > li > a {
@@ -64,48 +64,6 @@ nav > ul > li > a {
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 2px 2px black;
-}
-
-@media only screen and (max-width: 600px) {
-    header {
-      background-image: url('background-header2.jpeg');
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    header > img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    header > a > img {
-        border-radius: 50%;
-        border-style: groove;
-        border-color: #F56E00;
-        margin: 10px;
-        max-width:50px;
-        max-height:50px;
-        margin: 5px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    nav > ul > li {
-        padding: 5px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    nav > ul > li > a {
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 100%;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-shadow: 2px 2px black;
-    }
 }
 
 footer {
@@ -136,4 +94,34 @@ footer {
     box-shadow: 
         4px 4px 3px black, 
         inset 2px 2px 4px black;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+      background-image: url('background-header2.jpeg');
+    }
+
+    header > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    header > a > img {
+        border-radius: 50%;
+        border-style: groove;
+        border-color: #F56E00;
+        margin: 10px;
+        max-width:50px;
+        max-height:50px;
+        margin: 5px;
+    }
+
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    }
 }

@@ -29,22 +29,22 @@ main > form > fieldset > input {
 }
 
 .input-forms {
-    width:100%;
+    width: 100%;
+    border: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
     main {
         padding: 20px;
     }
-}
-
-@media only screen and (max-width: 600px) {
+   
     main > form {
         background-color: #0090b1;
-        width: 80%;
+        width: 90%;
         padding: 20px;
         border-radius: 15px;
-        margin: 0 auto;
+        margin: 0% -2%;
         border-style: groove;
         border-color: #F56E00;
     }
